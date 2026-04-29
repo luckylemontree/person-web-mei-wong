@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body class="sharper-corners ">
 
     <!-- Navbar on header-->
     <nav class="navbar navbar-expand-sm bg-body-tertiary">
@@ -45,7 +45,7 @@
         </div>
     </nav>
     <!---  header-->
-    <header class="text-center" id="hero">
+    <header class="text-center container" id="hero">
         <h1 class="display-1 mt-3">Mei Wong</h1>
         <h4 class="display-6 mt-2">Software Development</h4>
         <p class="text-start mt-2 mx-5 ">Hello! I'm Mei, a <strong>passionate and creative Software Developer</strong>
@@ -71,9 +71,9 @@
 
 
         <!--- about -->
-        <section id="about">
+        <section id="about" class="container">
 
-            <div class="container">
+            <div>
                 <div class="row ">
                     <div class="col-12">
                         <h2 class="display-4 text-center mt-4 mb-5">About Me</h2>
@@ -98,8 +98,8 @@
         </section>
 
         <!--  portofolio-->
-        <section id="portofolio">
-            <div class="container">
+        <section id="portfolio" class="container">
+            <div class=" pb-4">
                 <div class="row ">
 
                     <!-- portofolio title-->
@@ -108,16 +108,16 @@
                     </div>
 
                     <!--  first card in portofolio-->
-                    <div class="col-md-6">
-                        <div class="card">
+                    <div class="col-md-6 mb-3 ">
+                        <div class="card  ">
                             <img src="assets/images/wags-and-walks.webp" class="card-img-top" alt="wags and walks">
                             <div class="card-body">
-                                <h5 class="card-title">Wags & Walks</h5>
+                                <h3 class="card-title">Wags & Walks</h3>
                                 <p class="card-text">A platform for a dog walking service designed to fit the busy
                                     lifestyles of pet owners. Focused on promoting
                                     a healthy life for dogs, this site showcases convenient scheduling options and
                                     services.</p>
-                                <a href="#" class="btn btn-outline-dark">Visit site</a>
+                                <a href="#" class="btn btn-outline-dark  ">Visit site</a>
                             </div>
                         </div>
 
@@ -125,10 +125,10 @@
 
                     <!--  second card in portofolio-->
                     <div class="col-md-6">
-                        <div class="card">
+                        <div class="card  ">
                             <img src="assets/images/we-wellness.webp" class="card-img-top" alt="we wellness">
                             <div class="card-body">
-                                <h5 class="card-title">We Wellness</h5>
+                                <h3 class="card-title">We Wellness</h3>
                                 <p class="card-text">A comprehensive platform offering a wide range of wellness services
                                     and high-end products.
                                     From yoga classes to nutritional guidance, users can find everything they need to
@@ -141,10 +141,10 @@
 
                     <!--  third card in portofolio-->
                     <div class="col-md-6">
-                        <div class="card">
+                        <div class="card ">
                             <img src="assets/images/math-wiz.webp" class="card-img-top" alt="math wiz">
                             <div class="card-body">
-                                <h5 class="card-title">Math Wiz</h5>
+                                <h3 class="card-title">Math Wiz</h3>
                                 <p class="card-text">An interactive website dedicated to helping kids master mathematics
                                     through
                                     games and challenges. Designed with young learners in mind, this platform turns
@@ -158,10 +158,10 @@
 
                     <!--  fourth card in portofolio-->
                     <div class="col-md-6">
-                        <div class="card">
+                        <div class="card ">
                             <img src="assets/images/bmi-calculator.webp" class="card-img-top" alt="Bmi-calculator">
                             <div class="card-body">
-                                <h5 class="card-title">BMI Calculator</h5>
+                                <h3 class="card-title">BMI Calculator</h3>
                                 <p class="card-text">Promoting a healthier lifestyle with an easy-to-use
                                     BMI Calculator. Designed to provide quick health assessments, this tool helps users
                                     understand and manage their body mass index with just a few clicks.</p>
@@ -175,90 +175,93 @@
             </div>
         </section>
 
-    </maim>
-<!--        footer                   -->
-    <footer id="contact" class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center my-4">
-                <h2 class="display-5">Contact</h2>
-                <p class="mt-4">Got questions or ideas? I'd love to hear from you! Whether you're interested in
-                    collaboration, have inquiries about my projects, or wish to request a copy of my CV, please don't
-                    hesitate
-                    to get in touch. I'm always open to discussing new opportunities and how we can work together to
-                    create something amazing.</p>
-            </div>
+        </main>
 
-            <!---  form -->
-            <div class=" card col-12 col-md-10 col-lg-8">
-                <form class="row g-3 md-4 pt-3 ">
 
-                    <div class="col-md-4 ">
-                        <label for="inputName" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" id="inputName">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="inputPhone" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" id="inputPhone">
-
-                    </div>
-                    <div class="col-md-4">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-12">
-
-                        <label for="massage" class="form-label">Message</label>
-                        <textarea class="form-control" id="massage" rows="3"></textarea>
-                    </div>
-
-                    <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Send</button>
-                    </div>
-
-                </form>
-
-            </div>
-        </div>
-        </div>
-    </footer>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-        maximum-width="800">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!--        footer                   -->
+        <footer id="contact" class="container">
+            <div class="row justify-content-center  ">
+                <div class="col-12 text-center my-4">
+                    <h2 class="display-5">Contact</h2>
+                    <p class="mt-4">Got questions or ideas? I'd love to hear from you! Whether you're interested in
+                        collaboration, have inquiries about my projects, or wish to request a copy of my CV, please
+                        don't
+                        hesitate
+                        to get in touch. I'm always open to discussing new opportunities and how we can work together to
+                        create something amazing.</p>
                 </div>
-                <div class="modal-body">
-                    Join my newsletter for the latest updates on my projects, coding tips, and industry insights
-                    delivered straight to your inbox.
 
-                    <!--  form for subscribe-->
-                    <form class="text-start">
+                <!---  form -->
+                <div class=" card col-12 col-md-10 col-lg-8 mb-4 ">
+                    <form class="row g-3 pt-3 ">
 
-                        <div class="mb-1">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name">
+                        <div class="col-lg-4 ">
+                            <label for="inputName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-lg-4">
+                            <label for="inputPhone" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="inputPhone">
+
+                        </div>
+                        <div class="col-lg-4">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+
+                            <label for="massage" class="form-label">Message</label>
+                            <textarea class="form-control" id="massage" rows="3"></textarea>
                         </div>
 
-                        <div class="mb-1">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <div class="col-12">
+                            <button class="btn btn-primary mb-3" type="submit">Send</button>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
-                </div>
 
+                </div>
+            </div>
+
+        </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+            maximum-width="800">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Join my newsletter for the latest updates on my projects, coding tips, and industry insights
+                        delivered straight to your inbox.
+
+                        <!--  form for subscribe-->
+                        <form class="text-start container" >
+                            <div class="row">
+                                <div class="mb-1 col-md-5">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+
+                                <div class="mb-1 col-md-7">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+            </script>
 
 </body>
 
